@@ -3,7 +3,7 @@ import { count, isNotNull } from 'drizzle-orm'
 import React from 'react'
 
 import { CursorClickIcon, UsersIcon } from '~/assets'
-// import { PeekabooLink } from '~/components/links/PeekabooLink'
+import { PeekabooLink } from '~/components/links/PeekabooLink'
 import { Container } from '~/components/ui/Container'
 import { kvKeys } from '~/config/kv'
 // import { navigationItems } from '~/config/nav'
@@ -115,12 +115,12 @@ export async function Footer() {
               <Newsletter subCount={`${subs?.subCount ?? '0'}`} />
             </div>
             <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
-              {/*<p className="text-sm text-zinc-500/80 dark:text-zinc-400/80">*/}
-              {/*  &copy; {new Date().getFullYear()} Cali Castle. 网站已开源：*/}
-              {/*  <PeekabooLink href="https://github.com/CaliCastle/cali.so">*/}
-              {/*    GitHub*/}
-              {/*  </PeekabooLink>*/}
-              {/*</p>*/}
+              <p className="text-sm text-zinc-500/80 dark:text-zinc-400/80">
+                &copy; {new Date().getFullYear()} Hao Jing.
+                <PeekabooLink href="https://github.com/fromhaojing">
+                  GitHub
+                </PeekabooLink>
+              </p>
               {/*<Links />*/}
             </div>
           </Container.Inner>
