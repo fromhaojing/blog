@@ -1,5 +1,5 @@
 export const seo = {
-  title: 'Hao Jing | 开发者、设计师、细节控、探索者',
+  title: '好景 | 开发者、设计师、细节控、探索者',
   description:
     '我叫 HaoJing，一名开发者、设计师、细节控、探索者',
   url: new URL(

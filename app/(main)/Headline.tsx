@@ -4,8 +4,8 @@ import {motion} from 'framer-motion'
 import Balancer from 'react-wrap-balancer'
 
 import {SparkleIcon, UserSecurityIcon} from '~/assets'
-import {PeekabooLink} from '~/components/links/PeekabooLink'
-import {SocialLink} from '~/components/links/SocialLink'
+// import {PeekabooLink} from '~/components/links/PeekabooLink'
+// import {SocialLink} from '~/components/links/SocialLink'
 
 function Developer() {
     return (
@@ -86,7 +86,7 @@ export function Headline() {
                 }}
             >
                 <Balancer>
-                    你好，我是 haojing，一名前端开发者，热爱代码，也热爱生活。<br/>
+                    你好，我是 haojing（好景），一名前端开发者，热爱代码，也热爱生活。<br/>
                     我用像素和逻辑搭建界面，让灵感变得可见。
                     技术不只是工具，更是表达创意的方式。<br/>
                     这个博客，是我记录灵感与思考的地方，欢迎你的到来。
