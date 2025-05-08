@@ -86,10 +86,10 @@ export function Headline() {
                 }}
             >
                 <Balancer>
-                    你好，我是 haojing（好景），一名前端开发者，热爱代码，也热爱生活。<br/>
-                    我用像素和逻辑搭建界面，让灵感变得可见。
-                    技术不只是工具，更是表达创意的方式。<br/>
-                    这个博客，是我记录灵感与思考的地方，欢迎你的到来。
+                    你好，我是 haojing（好景）👨‍💻，一名前端开发者，热爱代码，也热爱生活☀️🌿。<br/>
+                    我用像素和逻辑搭建界面🧩，让灵感变得可见✨。
+                    技术不只是工具，更是表达创意的方式🎨。<br/>
+                    这个博客，是我记录灵感与思考的地方，欢迎你的到来🙌。
                 </Balancer>
 
             </motion.p>
@@ -106,27 +106,27 @@ export function Headline() {
             {/*    }}*/}
             {/*>*/}
             {/*    <SocialLink*/}
-            {/*        href="https://cali.so/twitter"*/}
+            {/*        href="https://haojing.asia/twitter"*/}
             {/*        aria-label="我的推特"*/}
             {/*        platform="twitter"*/}
             {/*    />*/}
             {/*    <SocialLink*/}
-            {/*        href="https://cali.so/youtube"*/}
+            {/*        href="https://haojing.asia/youtube"*/}
             {/*        aria-label="我的 YouTube"*/}
             {/*        platform="youtube"*/}
             {/*    />*/}
             {/*    <SocialLink*/}
-            {/*        href="https://cali.so/bilibili"*/}
+            {/*        href="https://haojing.asia/bilibili"*/}
             {/*        aria-label="我的 Bilibili"*/}
             {/*        platform="bilibili"*/}
             {/*    />*/}
             {/*    <SocialLink*/}
-            {/*        href="https://cali.so/github"*/}
+            {/*        href="https://haojing.asia/github"*/}
             {/*        aria-label="我的 GitHub"*/}
             {/*        platform="github"*/}
             {/*    />*/}
             {/*    <SocialLink*/}
-            {/*        href="https://cali.so/tg"*/}
+            {/*        href="https://haojing.asia/tg"*/}
             {/*        aria-label="我的 Telegram"*/}
             {/*        platform="telegram"*/}
             {/*    />*/}

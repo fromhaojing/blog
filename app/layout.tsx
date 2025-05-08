@@ -14,11 +14,11 @@ import { seo } from '~/lib/seo'
 export const metadata: Metadata = {
   metadataBase: seo.url,
   title: {
-    template: '%s | Hao Jing',
+    template: '%s | haojing',
     default: seo.title,
   },
   description: seo.description,
-  keywords: 'Hao Jing,郭晓楠,开发者,设计师,细节控,探索者',
+  keywords: 'haojing,开发者,设计师,细节控,探索者',
   manifest: '/site.webmanifest',
   robots: {
     index: true,
@@ -34,13 +34,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: {
       default: seo.title,
-      template: '%s | Cali Castle',
+      template: '%s | haojing',
     },
     description: seo.description,
-    siteName: 'Cali Castle',
+    siteName: 'haojing',
     locale: 'zh_CN',
     type: 'website',
-    url: 'https://cali.so',
+    url: 'https://haojing.asia',
   },
   twitter: {
     site: '@thecalicastle',
