@@ -1,6 +1,6 @@
 import Balancer from 'react-wrap-balancer'
 
-import { SocialLink } from '~/components/links/SocialLink'
+// import { SocialLink } from '~/components/links/SocialLink'
 import { Container } from '~/components/ui/Container'
 
 import { BlogPosts } from './BlogPosts'
