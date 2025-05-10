@@ -91,6 +91,11 @@ export default defineType({
       title: '内容',
       type: 'blockContent',
     }),
+    // defineField({
+    //   name: 'content',
+    //   title: '正文（Markdown）',
+    //   type: 'markdown',
+    // }),
     defineField({
       name: 'readingTime',
       title: '阅读时长（分钟）',

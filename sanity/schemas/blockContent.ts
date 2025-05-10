@@ -1,5 +1,6 @@
 import { defineArrayMember, defineType } from 'sanity'
 
+import {HighlightBackground, HighlightBackgroundText} from "~/components/portable-text/PortableTextHighlightColor";
 import { Tweet } from '~/sanity/components/Tweet'
 
 /**
@@ -49,6 +50,18 @@ export default defineType({
           { title: '下划线', value: 'underline' },
           { title: '删除线', value: 'strike-through' },
           { title: '代码', value: 'code' },
+          {
+            title: '橙色文字',
+            value: '#ff502c',
+            icon: () => 'HT',
+            component: HighlightBackground
+          },
+          {
+            title: '浅红背景',
+            value: '#fff5f5',
+            icon: () => 'HG',
+            component: HighlightBackgroundText
+          }
         ],
         // Annotations can be any object structure – e.g. a link or a footnote.
         annotations: [

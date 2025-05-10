@@ -14,6 +14,7 @@ import {
   PortableTextBlocksNormal,
 } from '~/components/portable-text/PortableTextBlocks'
 import { PortableTextCodeBlock } from '~/components/portable-text/PortableTextCodeBlock'
+import {HighlightBackground, HighlightBackgroundText} from "~/components/portable-text/PortableTextHighlightColor";
 import { PortableTextImage } from '~/components/portable-text/PortableTextImage'
 import { PortableTextTweet } from '~/components/portable-text/PortableTextTweet'
 
@@ -44,6 +45,12 @@ const components: PortableTextComponents = {
         </PeekabooLink>
       )
     },
+    ['#ff502c']: ({ children }) => (
+        <HighlightBackground>{children}</HighlightBackground>
+    ),
+    ['#fff5f5']: ({ children }) => (
+        <HighlightBackgroundText>{children}</HighlightBackgroundText>
+    ),
   },
 }
 
