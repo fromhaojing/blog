@@ -1,7 +1,6 @@
 import './blog/[slug]/blog.css'
 
 import { Analytics } from '@vercel/analytics/react'
-import { Suspense } from 'react'
 
 import { Footer } from '~/app/(main)/Footer'
 import { Header } from '~/app/(main)/Header'
@@ -19,7 +18,7 @@ export default function BlogLayout({
 
       <div className="fixed inset-0 flex justify-center ">
         <div className="flex w-full ">
-          <div className="w-full lg:px-8 sm:px-8 bg-zinc-50/50 ring-1 ring-zinc-100 backdrop-blur-lg dark:bg-zinc-900/70 dark:ring-zinc-400/20" />
+          <div className="w-full lg:px-8 sm:px-8 bg-zinc-50/60 ring-1 ring-zinc-100 backdrop-blur-lg dark:bg-zinc-900/60 dark:ring-zinc-400/20" />
         </div>
       </div>
 
@@ -27,9 +26,7 @@ export default function BlogLayout({
         <div className="relative text-zinc-800 dark:text-zinc-200">
           <Header />
           <main>{children}</main>
-          <Suspense fallback={null}>
             <Footer />
-          </Suspense>
         </div>
       </QueryProvider>
 
