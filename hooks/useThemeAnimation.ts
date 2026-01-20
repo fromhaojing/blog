@@ -84,11 +84,13 @@ const useThemeAnimation = () => {
       isDarkRef.current = !wasDark
     })
 
-    return new Promise<boolean>((resolve) => {
-      transition.ready.then(() => {
-        startClipAnimation(clipPath, wasDark)
-        resolve(!wasDark)
-      })
+    return new Promise<boolean>((resolve, reject) => {
+      transition.ready
+        .then(() => {
+          startClipAnimation(clipPath, wasDark)
+          resolve(!wasDark)
+        })
+        .catch(reject)
     })
   }
 
