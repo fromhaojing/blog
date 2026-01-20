@@ -91,7 +91,10 @@ const useThemeAnimation = () => {
 
   /** 首次注入 ::view-transition-* 兼容样式 */
   useEffect(() => {
-    if (typeof document.startViewTransition === 'function') {
+    if (
+      document?.startViewTransition &&
+      typeof document?.startViewTransition === 'function'
+    ) {
       updateCSS(viewTransitionStyle, 'view-transition-style')
     }
   }, [])
