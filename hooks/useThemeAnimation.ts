@@ -32,7 +32,7 @@ const viewTransitionStyle = `
 const useThemeAnimation = () => {
   const { resolvedTheme } = useTheme()
 
-  const isDarkRef = useRef(resolvedTheme === 'dark')
+  const isDarkRef = useRef<boolean>(resolvedTheme === 'dark')
 
   /** 禁用全局过渡 + 执行 clip‑path 动画 */
   const startClipAnimation = (clipPath: string[], reverse = false) => {
@@ -58,7 +58,10 @@ const useThemeAnimation = () => {
   const toggleAnimationTheme = (
     e: React.MouseEvent<HTMLElement>
   ): Promise<boolean> => {
-    if (typeof document.startViewTransition !== 'function') {
+    if (
+      document?.startViewTransition &&
+      typeof document?.startViewTransition !== 'function'
+    ) {
       return Promise.resolve(isDarkRef.current)
     }
 
