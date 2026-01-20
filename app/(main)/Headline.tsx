@@ -106,27 +106,27 @@ export function Headline() {
             {/*    }}*/}
             {/*>*/}
             {/*    <SocialLink*/}
-            {/*        href="https://haojing.asia/twitter"*/}
+            {/*        href="https://hjverser.com/twitter"*/}
             {/*        aria-label="我的推特"*/}
             {/*        platform="twitter"*/}
             {/*    />*/}
             {/*    <SocialLink*/}
-            {/*        href="https://haojing.asia/youtube"*/}
+            {/*        href="https://hjverser.com/youtube"*/}
             {/*        aria-label="我的 YouTube"*/}
             {/*        platform="youtube"*/}
             {/*    />*/}
             {/*    <SocialLink*/}
-            {/*        href="https://haojing.asia/bilibili"*/}
+            {/*        href="https://hjverser.com/bilibili"*/}
             {/*        aria-label="我的 Bilibili"*/}
             {/*        platform="bilibili"*/}
             {/*    />*/}
             {/*    <SocialLink*/}
-            {/*        href="https://haojing.asia/github"*/}
+            {/*        href="https://hjverser.com/github"*/}
             {/*        aria-label="我的 GitHub"*/}
             {/*        platform="github"*/}
             {/*    />*/}
             {/*    <SocialLink*/}
-            {/*        href="https://haojing.asia/tg"*/}
+            {/*        href="https://hjverser.com/tg"*/}
             {/*        aria-label="我的 Telegram"*/}
             {/*        platform="telegram"*/}
             {/*    />*/}

@@ -9,7 +9,7 @@ const NewGuestbookEmail = ({
   link = 'https://caliso/guestbook',
   userFirstName = 'HaoJing',
   userLastName = 'HaoJing',
-  userImageUrl = 'https://haojing.asia/icon.png',
+  userImageUrl = 'https://hjverser.com/icon.png',
   commentContent = '*测试评论*\n- Wow wtf\n- Cool',
 }: {
   link?: string | null

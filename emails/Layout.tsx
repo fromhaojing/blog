@@ -44,7 +44,7 @@ export default function Layout({
               />
               <Text className="text-center">
                 <Link
-                  href="https://haojing.asia"
+                  href="https://hjverser.com"
                   className="text-zinc-700 underline"
                 >
                   <strong>HaoJing</strong>
@@ -54,28 +54,28 @@ export default function Layout({
               </Text>
               <Text className="text-center">
                 <Link
-                  href="https://haojing.asia/twitter"
+                  href="https://hjverser.com/twitter"
                   className="text-xs text-zinc-600 underline"
                 >
                   Twitter
                 </Link>{' '}
                 |&nbsp;
                 <Link
-                  href="https://haojing.asia/youtube"
+                  href="https://hjverser.com/youtube"
                   className="text-xs text-zinc-600 underline"
                 >
                   YouTube
                 </Link>{' '}
                 |&nbsp;
                 <Link
-                  href="https://haojing.asia/github"
+                  href="https://hjverser.com/github"
                   className="text-xs text-zinc-600 underline"
                 >
                   GitHub
                 </Link>{' '}
                 |&nbsp;
                 <Link
-                  href="https://haojing.asia/bilibili"
+                  href="https://hjverser.com/bilibili"
                   className="text-xs text-zinc-600 underline"
                 >
                   哔哩哔哩

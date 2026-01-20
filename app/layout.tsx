@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     siteName: 'haojing',
     locale: 'zh_CN',
     type: 'website',
-    url: 'https://haojing.asia',
+    url: 'https://hjverser.com',
   },
   twitter: {
     site: '@thecalicastle',

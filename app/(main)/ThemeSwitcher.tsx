@@ -6,6 +6,7 @@ import React from 'react'
 
 import { LightningIcon, MoonIcon, SunIcon } from '~/assets'
 import { Tooltip } from '~/components/ui/Tooltip'
+import { useThemeAnimation } from '~/hooks'
 
 const themes = [
   {
@@ -22,7 +23,8 @@ const themes = [
 export function ThemeSwitcher() {
   const [mounted, setMounted] = React.useState(false)
   const [open, setOpen] = React.useState(false)
-  const { setTheme, theme, resolvedTheme } = useTheme()
+  const { theme, setTheme } = useTheme()
+  const toggleThemeAnimation = useThemeAnimation()
   const ThemeIcon = React.useMemo(
     () => themes.find((t) => t.value === theme)?.icon ?? LightningIcon,
     [theme]
@@ -30,8 +32,9 @@ export function ThemeSwitcher() {
 
   React.useEffect(() => setMounted(true), [])
 
-  function toggleTheme() {
-    setTheme(resolvedTheme === 'dark' ? 'light' : 'dark')
+  async function toggleTheme(e: React.MouseEvent<HTMLElement>) {
+    const isDark = await toggleThemeAnimation(e)
+    setTheme(isDark ? 'dark' : 'light')
   }
 
   if (!mounted) {
@@ -60,7 +63,7 @@ export function ThemeSwitcher() {
                   animate={{ opacity: 1, scale: 1 }}
                   exit={{ opacity: 0, scale: 0.95 }}
                 >
-                  {themes.find((t) => t.value === theme)?.label || "系统模式"}
+                  {themes.find((t) => t.value === theme)?.label || '系统模式'}
                 </motion.div>
               </Tooltip.Content>
             </Tooltip.Portal>
