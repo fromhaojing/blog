@@ -5,9 +5,9 @@ export default function BlockedPage() {
         我已禁止你的访问权限
       </h1>
       <span className="text-sm">
-        如果你认为你不应该被禁，请联系我的邮箱{' '}
-        <a href="mailto:hi@cali.so" className="font-bold underline">
-          hi@cali.so
+        如果你认为你不应该被禁，请联系我的邮箱
+        <a href="mailto:admin@haojing.asia" className="font-bold underline">
+          admin@haojing.asia
         </a>
       </span>
     </main>
